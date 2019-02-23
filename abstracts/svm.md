@@ -51,8 +51,7 @@ We have figure out that the Lagrangian **L** doesn't deppend on the weight vecto
 
 In the dual space, the decision functions are of the form:
 
-<div style="text-align:center"><img src ="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%3D1%7D%5E%7Bp%7D%20%5Calpha_i%20K%28X_i%2C%20%5Cvec%7BX%7D%29%20&plus;b%5D
-"/></div>
+<div style="text-align:center"><img src ="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%3D1%7D%5E%7Bp%7D%20%5Calpha_i%20K%28X_i%2C%20%5Cvec%7BX%7D%29%20+b%5D"/></div>
 
 The coeficients *alpha* are the parameters to be adjusted and the **X_i** are the training examples. The function K is a predefined kernel that allows the algorithm to learn decision boundaries in higher dimensions and there is not need to worry about some transformation because this kernel function will return a complex transformation obtained by the dot product in some space. If you noticed the form of the dual space has the same spirit explained in the intuiton above and the Kernel function doesn't modify anything at all.
 
