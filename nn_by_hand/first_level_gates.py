@@ -29,6 +29,6 @@ def back_and_grad(X , y , w , b, learning_rate , num_ep):
 w = np.random.rand(1,2)
 b = np.random.rand(1)
 X = np.array([[1,1,0,0], [1,0,1,0]])
-y = np.array([1,0,0,0])
+y = np.array([1,1,1,0])
 learning_rate = 0.01
 back_and_grad(X , y , w, b , learning_rate, 20000)
